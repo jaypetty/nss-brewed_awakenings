@@ -6,6 +6,7 @@ const employees = getEmployees()
 const orders = getOrders()
 
 
+
 // Function whose responsibility is to find the product for an order
 const findProduct = (order, allProducts) => {
     let orderProduct = null
